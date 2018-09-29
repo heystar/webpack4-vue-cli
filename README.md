@@ -283,7 +283,7 @@ npm i eslint@4.19.1 -D
 ```
 删除`optimize-css-assets-webpack-plugin`插件
 ```
-npm i optimize-css-assets-webpack-plugin -D
+npm un optimize-css-assets-webpack-plugin -D
 ```
 修改`webpack.prod.conf.js`
 删除引用：
